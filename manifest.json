@@ -1,0 +1,12 @@
+{
+  "name": "uwem-repo-notifier",
+  "url": "https://github.com/ashNikov",
+  "hook_attributes": { "url": "https://example.com/webhook" },
+  "redirect_url": "http://localhost:8787/callback",
+  "public": false,
+  "default_events": ["push", "repository"],
+  "default_permissions": {
+    "contents": "read",
+    "metadata": "read"
+  }
+}
